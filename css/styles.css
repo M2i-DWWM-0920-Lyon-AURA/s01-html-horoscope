@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+#container {
+    background-color: #131b31;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Gugi, cursive;
+}
+
+ol li {
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: '\1F539';
+    margin-left: 2rem;
+}
