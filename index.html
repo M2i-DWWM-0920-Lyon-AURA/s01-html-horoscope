@@ -11,26 +11,31 @@
 <body>
     <div id="container">
         <header>
-            <h1>M2i Horoscope</h1>
-            <hr />
-            <p>
+            <div class="center-container">
+                <div id="heading">
+                    <h1>M2i Horoscope</h1>
+                    <hr class="separator" />
+                </div>
+            </div>
+            <p id="intro">
                 Apprentis développeurs, cet horoscope est fait pour vous! Vous codez, vous codez, mais on n'est jamais à l'abri des surprises, bonnes ou mauvaises, que nous réserve le destin&hellip; Alors, ne vous laissez pas prendre au dépourvu! Entre deux <em>pull requests</em>, prenez le temps de lire ces prévisions réalisés par notre spécialiste!
             </p>
         </header>
         <main>
             <h2>Horoscope du jour</h2>
-            <ol>
-                <li>
-                    <img src="./images/zodiac/012-aries.svg" />
-                    <h3>Bélier</h3>
+            <!-- ol.grid>li.sign*12>img.sign-icon+h3.sign-name+p.sign-description+div.sign-dates>time+time -->
+            <ol class="grid">
+                <li class="sign">
+                    <img class="sign-icon" src="./images/zodiac/012-aries.svg" />
+                    <h3 class="sign-name">Bélier</h3>
                     <div>
                         <time datetime="2020-03-21 00:00">21 mars</time> - <time datetime="2020-04-19 00:00">19 avr.</time>
                     </div>
-                    <p>
+                    <p class="sign-description">
                         Votre code sera truffé d'erreurs cette semaine. Mais vous gardez confiance: l'ordinateur va finir par céder.
                     </p>
                 </li>
-                <li>
+                <li class="sign">
                     <img src="./images/zodiac/011-taurus.svg" alt="">
                     <h3>Taureau</h3>
                     <div>
@@ -41,7 +46,7 @@
                         Vous ne croyez pas en l'astrologie de toute façon, donc si vous lisez ça, c'est que vous n'êtes pas Taureau, mais plutôt Balance.
                     </p>
                 </li>
-                <li>
+                <li class="sign">
                     <img src="./images/zodiac/010-gemini.svg" alt="">
                     <h3>Gémeaux</h3>
                     <div>
@@ -52,7 +57,7 @@
                         Arrêtez de maudire vos collaborateurs qui cassent votre code à chaque fois, et rappelez-vous que vous êtes seul à travailler sur ce projet.
                     </p>
                 </li>
-                <li>
+                <li class="sign">
                     <img src="" alt="">
                     <h3></h3>
                     <div>
@@ -63,7 +68,7 @@
                         
                     </p>
                 </li>
-                <li>
+                <li class="sign">
                     <img src="" alt="">
                     <h3></h3>
                     <div>
@@ -74,7 +79,7 @@
                         
                     </p>
                 </li>
-                <li>
+                <li class="sign">
                     <img src="" alt="">
                     <h3></h3>
                     <div>
@@ -85,7 +90,7 @@
                         
                     </p>
                 </li>
-                <li>
+                <li class="sign">
                     <img src="" alt="">
                     <h3></h3>
                     <div>
@@ -96,7 +101,18 @@
                         
                     </p>
                 </li>
-                <li>
+                <li class="sign">
+                    <img src="./images/zodiac/005-scorpio.svg" alt="">
+                    <h3>Scorpion</h3>
+                    <div>
+                        <time></time>
+                        <time></time>
+                    </div>
+                    <p>
+                        Vous êtes titillé par une envie de supprimer tout le code du projet et de tout recommencer <em>from scratch</em>. Attendez plutôt le mois prochain. L'alignement des planètes sera meilleur, et surtout, la deadline sera passée.
+                    </p>
+                </li>
+                <li class="sign">
                     <img src="" alt="">
                     <h3></h3>
                     <div>
@@ -107,7 +123,7 @@
                         
                     </p>
                 </li>
-                <li>
+                <li class="sign">
                     <img src="" alt="">
                     <h3></h3>
                     <div>
@@ -118,7 +134,7 @@
                         
                     </p>
                 </li>
-                <li>
+                <li class="sign">
                     <img src="" alt="">
                     <h3></h3>
                     <div>
@@ -129,18 +145,7 @@
                         
                     </p>
                 </li>
-                <li>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <div>
-                        <time></time>
-                        <time></time>
-                    </div>
-                    <p>
-                        
-                    </p>
-                </li>
-                <li>
+                <li class="sign">
                     <img src="" alt="">
                     <h3></h3>
                     <div>
