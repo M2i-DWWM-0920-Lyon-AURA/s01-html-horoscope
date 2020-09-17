@@ -95,3 +95,17 @@ ul li {
     font-size: 1.5rem;
     text-transform: uppercase;
 }
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover,
+a:visited:hover {
+    color: orange;
+}
+
+a:visited {
+    color: greenyellow;
+}
